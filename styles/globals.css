@@ -1,5 +1,6 @@
 html,
 body {
+  background-color: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -14,3 +15,116 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+/* Messages start */
+.right-cont {
+  display: flex;
+  align-items: flex-end;
+}
+
+.right-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  min-height: 40px;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  margin: 10px 0 10px 10px;
+}
+
+.right-avatar h6 {
+  margin-bottom: 0;
+}
+
+.right-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.right-time {
+  align-self: flex-end;
+  font-size: 12px;
+}
+
+.left-cont {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.left-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #ffffff90;
+  border-radius: 100%;
+  min-height: 40px;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  margin: 10px 10px 10px 0;
+}
+
+.left-avatar h6 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff90;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+/* Messages end */
+
+/* Messages Input start */
+.type-text-cont {
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+}
+
+.type-text {
+  display: flex;
+  width: 70vw;
+  border-width: 0;
+  border-radius: 6px;
+}
+
+textarea {
+  padding: 10px;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+.type-text-btn {
+  display: flex;
+  height: fit-content;
+  padding: 10px;
+  background-color: peru;
+  border-width: 0;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+/* Messages Input end */
